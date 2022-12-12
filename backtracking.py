@@ -1,6 +1,5 @@
 # The following file was extracted from https://github.com/benselby/CS686/blob/master/assignment1/sudoku.py
 # File modified by Akshay Peddi, December 2022
-# https://www.linkedin.com/in/akshaypeddi/
 
     #####
     #
