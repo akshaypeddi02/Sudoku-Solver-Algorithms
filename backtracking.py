@@ -1,12 +1,15 @@
-#####
-# CS 686 Artificial Intelligence - Assignment 1
-#
-# Sudoku Solver implemented using a constraint-satisfaction formulation
-# Implements a dumb backtracking method with random cell selection,
-# backtracking with forward checking, and forward checking with heuristics
-#
-# Ben Selby, January 2013
-#####
+# The following file was extracted from https://github.com/benselby/CS686/blob/master/assignment1/sudoku.py
+# File modified by Akshay Peddi, December 2022
+# https://www.linkedin.com/in/akshaypeddi/
+
+    #####
+    #
+    # Sudoku Solver implemented using a constraint-satisfaction formulation
+    # Implements a dumb backtracking method with random cell selection,
+    # backtracking with forward checking, and forward checking with heuristics
+    #
+    # Ben Selby, January 2013
+    #####
 
 import math
 import random
@@ -27,7 +30,7 @@ def main():
     print("Running %d trial(s)..." % n_trials)
         
     run_times = []
-      
+
     ### Easy Puzzle
     easy   = [[0, 3, 0, 0, 8, 0, 0, 0, 6],
               [5, 0, 0, 2, 9, 4, 7, 1, 0],
