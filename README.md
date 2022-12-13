@@ -1,6 +1,6 @@
 # Sudoku-Solver-Algorithms
 
-This GitHub repository contains all the code that was used to perform the compartive study between various Sudoku solving algorithms.
+This GitHub repository contains all the code that was used to perform the comparative study between various Sudoku solving algorithms.
 
 backtracking.py contains 3 algorithms:
   - Dumb backtracking with random cell selection
