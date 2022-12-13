@@ -290,11 +290,11 @@ def simulated_annealing():
     PrintSudoku(solution)
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     print("Begin Linear Programming: \n\n")
-    #linear_programming()
+    # linear_programming()
     print("End Linear Programming: \n\n")
     
     print("begin simualted annealing\n")
-    #simulated_annealing()
+    simulated_annealing()
     print("\nend simulated annealing")
