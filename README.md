@@ -7,3 +7,6 @@ backtracking.py contains 3 algorithms:
   - Backtracking with forward checking
   - Forward checking with heuristics (minimum remaining values, degree, and least constraining value heuristics)
 
+lp_sa.py contains 2 algorithms:
+  - Linear Programming
+  - Simulated Annealing
